@@ -1,1 +1,12 @@
-$injectedColor: red;
+// 安全距离变量
+$safe-env: env(safe-area-inset-bottom);
+$safe-con: constant(safe-area-inset-bottom);
+
+view {
+  font-size: 28rpx;
+  line-height: 1.5;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
